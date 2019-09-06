@@ -4,7 +4,7 @@
 
 ## Part A. Set Up a Breadboard
 
-![Alt Text](https://github.com/Konstantinos-KK/IDD-Fa18-Lab1/blob/master/initial_circuit.jpg)
+![Initial Circuit](https://github.com/Konstantinos-KK/IDD-Fa18-Lab1/blob/master/initial_circuit.jpg)
 
 ## Part B. Manually Blink a LED
 
