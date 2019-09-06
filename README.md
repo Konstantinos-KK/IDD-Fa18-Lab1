@@ -39,6 +39,8 @@ The LED blinks my way by setting some vasriables i,j and thes changing them insi
 **a. Are you able to get the LED to glow the whole turning range of the potentiometer? Why or why not?**
 The LED remains turned on at the full range of the potentiometer. Measuring the resitance of the potentiometer it varies from 0 Ohms to approximately 10,000 Ohms (actual 10250 Ohms). The maximum brightness is achieved at 0 Ohms, where the circuit only has an external 220 Ohm reistance. AS resistance icnreases the current decreases and the LED brightness falls. However, the maixmum resistance is not enough to prevent all current from flowing in the LED and thus it still lights up.
 
+![Manual Fading](https://github.com/Konstantinos-KK/IDD-Fa18-Lab1/blob/master/manual_fading.jpg)
+
 ## Part E. Fade an LED using Arduino
 
 **a. What do you have to modify to make the code control the circuit you've built on your breadboard?** 
