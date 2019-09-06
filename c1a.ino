@@ -1,7 +1,7 @@
 /* Modified from source https://www.arduino.cc/en/Tutorial/Blink */
 
+int out = LED_BUILTIN;
 void setup() {
-  out = LED_BUILTIN
   pinMode(out, OUTPUT);
 }
 
