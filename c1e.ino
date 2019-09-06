@@ -1,6 +1,6 @@
 /* Modified from source https://www.arduino.cc/en/Tutorial/Blink */
 
-int out = 9;
+int out = LED_BUILTIN;
 int i = 500;
 int j = 100;
 void setup() {
