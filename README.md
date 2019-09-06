@@ -43,9 +43,9 @@ The LED remains turned on at the full range of the potentiometer. Measuring the 
 
 ## Part E. Fade an LED using Arduino
 
-**a. What do you have to modify to make the code control the circuit you've built on your breadboard?** 
+**a. What do you have to modify to make the code control the circuit you've built on your breadboard?** The output pin initialized as "int led" needs to be equal to 11, since this pin is connected in the circuit.
 
-**b. What is analogWrite()? How is that different than digitalWrite()?**
+**b. What is analogWrite()? How is that different than digitalWrite()?** The command "digitalWrite()" is set as HIGH or LOW meaning it can only output 0V or 5V. An analog value of 255 is equal to HIGH in the digital. The "analogWrite()" is able to take as an input an integer number, map it to a pin and generate a PWM signal. [Code eb](https://github.com/Konstantinos-KK/IDD-Fa18-Lab1/blob/master/eb.ino)
 
 
 ## Part F. FRANKENLIGHT!!!
