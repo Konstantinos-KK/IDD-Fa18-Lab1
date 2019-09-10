@@ -52,13 +52,13 @@ The LED remains turned on at the full range of the potentiometer. Measuring the 
 
 ### 1. Take apart your electronic device, and draw a schematic of what is inside. ......................
 
-**a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"** he mouse uses a photocell ([light sensor exact model](http://www.instant-sys.com/uploads/pdf/norm/A601BS_en.pdf)) to detect changes in the reflected light from the LED pointing downwards. Based on these changes it can send the correct signal to the pc without conveying it to other portions of the device.
+**a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"** The mouse uses a photocell ([light sensor A601BS](http://www.instant-sys.com/uploads/pdf/norm/A601BS_en.pdf)) to detect changes in the reflected light from the LED pointing downwards, on the surface that has contact with the mouse. A digital signal processor is included in the chip and it is used to compute the change between images that show a movement.
 
-**b. Are there sensors on your device? How do they work? How is the sensed information conveyed to other portions of the device?** Every computer mouse needs to be able to detect the direction of movement and adjust it to the screen. T
+**b. Are there sensors on your device? How do they work? How is the sensed information conveyed to other portions of the device?** Every computer mouse needs to be able to detect the direction of movement and adjust it to the screen. A CMOS image sensor is used to detect the reflected light from the backlight LED. Based on the image changes it can send the correct signal to the pc without conveying it to other portions of the device.
 
-**c. How is the device powered? Is there any transformation or regulation of the power? How is that done? What voltages are used throughout the system?** The device uses a usb cable to connect to the computer. The usb cable has an output of approximately 5V (5.15V). The usb has a DC voltage which is regulated using resistors to prevent the LEDs from burning. Capacitors are also used to stabilize the input voltage and debounce the circuit.
+**c. How is the device powered? Is there any transformation or regulation of the power? How is that done? What voltages are used throughout the system?** The device uses a usb cable to connect to the computer. The usb cable has an output of approximately 5V (5.15V). The usb has a DC voltage which is regulated using resistors to prevent the LEDs from burning. Capacitors are also used in the A601BS chip and externally, to stabilize the input voltage and debounce the circuit.
 
-**d. Is information stored in your device? Where? How?** The optical sensor chip (photocell) stores ....................
+**d. Is information stored in your device? Where? How?** The optical sensor chip (photocell) stores images and compares the new state with the previous state to detect the change in the images and thus direction and magnitude of movement.
 
 ### 2. Using your schematic, figure out where a good point would be to hijack your device and implant an LED.
 
