@@ -63,9 +63,9 @@ The LED remains turned on at the full range of the potentiometer. Measuring the 
 </p>
 
 <p align="center"> <b> Board/Schematic </b> <p>
-<p float="left">
-  <img src="https://github.com/Konstantinos-KK/IDD-Fa19-Lab1/blob/master/mouse_board.jpg" width="425" />
-  <img src="https://github.com/Konstantinos-KK/IDD-Fa19-Lab1/blob/master/schematic.jpg" width="425" /> 
+<p align="center>
+  <img src="https://github.com/Konstantinos-KK/IDD-Fa19-Lab1/blob/master/mouse_board.jpg" width="600" />
+  <img src="https://github.com/Konstantinos-KK/IDD-Fa19-Lab1/blob/master/schematic.jpg" width="600" /> 
 </p>
 
 **a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"** The mouse uses a photocell ([light sensor A601BS](http://www.instant-sys.com/uploads/pdf/norm/A601BS_en.pdf)) to detect changes in the reflected light from the LED pointing downwards, on the surface that has contact with the mouse. A digital signal processor is included in the chip and it is used to compute the change between images that show a movement.
