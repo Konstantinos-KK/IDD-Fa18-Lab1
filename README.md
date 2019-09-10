@@ -50,22 +50,22 @@ The LED remains turned on at the full range of the potentiometer. Measuring the 
 
 ## Part F. FRANKENLIGHT!!!
 
-### 1. Take apart your electronic device, and draw a schematic of what is inside. 
+### 1. Take apart your electronic device, and draw a schematic of what is inside. ......................
 
-**a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"**
+**a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"** he mouse uses a photocell ([light sensor exact model](http://www.instant-sys.com/uploads/pdf/norm/A601BS_en.pdf)) to detect changes in the reflected light from the LED pointing downwards. Based on these changes it can send the correct signal to the pc without conveying it to other portions of the device.
 
-**b. Are there sensors on your device? How do they work? How is the sensed information conveyed to other portions of the device?**
+**b. Are there sensors on your device? How do they work? How is the sensed information conveyed to other portions of the device?** Every computer mouse needs to be able to detect the direction of movement and adjust it to the screen. T
 
-**c. How is the device powered? Is there any transformation or regulation of the power? How is that done? What voltages are used throughout the system?**
+**c. How is the device powered? Is there any transformation or regulation of the power? How is that done? What voltages are used throughout the system?** The device uses a usb cable to connect to the computer. The usb cable has an output of approximately 5V (5.15V). The usb has a DC voltage which is regulated using resistors to prevent the LEDs from burning. Capacitors are also used to stabilize the input voltage and debounce the circuit.
 
-**d. Is information stored in your device? Where? How?**
+**d. Is information stored in your device? Where? How?** The optical sensor chip (photocell) stores ....................
 
 ### 2. Using your schematic, figure out where a good point would be to hijack your device and implant an LED.
 
-**Describe what you did here.**
+**Describe what you did here.** The mouse is a gaming mouse and has multiple LEDs for RGB lighting. Since the LEDs are regulated already by resistors, I connected in parallel to one of the LEDs the external one. Since it is in parallel, the current is divided and both LEDs light up. ......................
 
 ### 3. Build your light!
 
-**Make a video showing off your Frankenlight.**
+**Make a video showing off your Frankenlight.** ........................................
 
 **Include any schematics or photos in your lab write-up.**
