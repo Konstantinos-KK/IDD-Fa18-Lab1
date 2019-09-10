@@ -62,6 +62,11 @@ The LED remains turned on at the full range of the potentiometer. Measuring the 
   <img src="https://github.com/Konstantinos-KK/IDD-Fa19-Lab1/blob/master/opened_mouse.jpg" width="425" /> 
 </p>
 
+<p align="center"> <b> Schematic </b> <p>
+<p float="left">
+  <img src="https://github.com/Konstantinos-KK/IDD-Fa19-Lab1/blob/master/mouse_board.jpg" width="425" />
+  <img src="https://github.com/Konstantinos-KK/IDD-Fa19-Lab1/blob/master/opened_mouse.jpg" width="425" /> 
+</p>
 **a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"** The mouse uses a photocell ([light sensor A601BS](http://www.instant-sys.com/uploads/pdf/norm/A601BS_en.pdf)) to detect changes in the reflected light from the LED pointing downwards, on the surface that has contact with the mouse. A digital signal processor is included in the chip and it is used to compute the change between images that show a movement.
 
 **b. Are there sensors on your device? How do they work? How is the sensed information conveyed to other portions of the device?** Every computer mouse needs to be able to detect the direction of movement and adjust it to the screen. A CMOS image sensor is used to detect the reflected light from the backlight LED. Based on the image changes it can send the correct signal to the pc without conveying it to other portions of the device.
