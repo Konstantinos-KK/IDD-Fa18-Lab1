@@ -61,6 +61,7 @@ The LED remains turned on at the full range of the potentiometer. Measuring the 
   <img src="https://github.com/Konstantinos-KK/IDD-Fa19-Lab1/blob/master/mouse.jpg" width="425" />
   <img src="https://github.com/Konstantinos-KK/IDD-Fa19-Lab1/blob/master/opened_mouse.jpg" width="425" /> 
 </p>
+
 **a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"** The mouse uses a photocell ([light sensor A601BS](http://www.instant-sys.com/uploads/pdf/norm/A601BS_en.pdf)) to detect changes in the reflected light from the LED pointing downwards, on the surface that has contact with the mouse. A digital signal processor is included in the chip and it is used to compute the change between images that show a movement.
 
 **b. Are there sensors on your device? How do they work? How is the sensed information conveyed to other portions of the device?** Every computer mouse needs to be able to detect the direction of movement and adjust it to the screen. A CMOS image sensor is used to detect the reflected light from the backlight LED. Based on the image changes it can send the correct signal to the pc without conveying it to other portions of the device.
@@ -73,12 +74,12 @@ The LED remains turned on at the full range of the potentiometer. Measuring the 
 
 **Describe what you did here.** The mouse is a gaming mouse and has multiple LEDs for RGB lighting. Since the LEDs are regulated already by resistors, I connected the external circuit in parallel to one of the LEDs, by hooking two cables to the breadboard. Since it is in parallel, the current is divided and the green LED lights up. The voltage is oscillating using an internal oscilaltor and thus the external LED changes intensity. When pressing the button the red light is connected in parallel and also lights up.
 
+### 3. Build your light!
+
 <p align="center"> <b> Frankenlight Design </b> <p>
 <p align="center">
   <img width="600" src="https://github.com/Konstantinos-KK/IDD-Fa19-Lab1/blob/master/frankenlight_design.jpg">
 </p>
-
-### 3. Build your light!
 
 **Make a video showing off your Frankenlight.** [Youtube Video](https://youtu.be/Lejn6v7X0ng)
 
