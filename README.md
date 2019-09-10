@@ -41,7 +41,7 @@ The LED blinks my way by setting some vasriables i,j and thes changing them insi
 **a. Are you able to get the LED to glow the whole turning range of the potentiometer? Why or why not?**
 The LED remains turned on at the full range of the potentiometer. Measuring the resitance of the potentiometer it varies from 0 Ohms to approximately 10,000 Ohms (actual 10250 Ohms). The maximum brightness is achieved at 0 Ohms, where the circuit only has an external 220 Ohm reistance. AS resistance icnreases the current decreases and the LED brightness falls. However, the maixmum resistance is not enough to prevent all current from flowing in the LED and thus it still lights up.
 
-<p align="center"> <b> Manual Fading </b> <p>
+<p align="center"> <b> Manual Fading </b> </p>
 <p align="center">
   <img width="600" src="https://github.com/Konstantinos-KK/IDD-Fa18-Lab1/blob/master/manual_fading.jpg">
 </p>
@@ -63,11 +63,11 @@ The LED remains turned on at the full range of the potentiometer. Measuring the 
 </p>
 
 <p align="center"> <b> Board/Schematic </b> </p>
-<p align="center>
+<p align="center">
   <img src="https://github.com/Konstantinos-KK/IDD-Fa19-Lab1/blob/master/mouse_board.jpg" width="600" />
   <img src="https://github.com/Konstantinos-KK/IDD-Fa19-Lab1/blob/master/schematic.jpg" width="600" /> 
 </p>
-                                                                                                   
+                                                                                        
 **a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"** The mouse uses a photocell ([light sensor A601BS](http://www.instant-sys.com/uploads/pdf/norm/A601BS_en.pdf)) to detect changes in the reflected light from the LED pointing downwards, on the surface that has contact with the mouse. A digital signal processor is included in the chip and it is used to compute the change between images that show a movement.
 
 **b. Are there sensors on your device? How do they work? How is the sensed information conveyed to other portions of the device?** Every computer mouse needs to be able to detect the direction of movement and adjust it to the screen. A CMOS image sensor is used to detect the reflected light from the backlight LED. Based on the image changes it can send the correct signal to the pc without conveying it to other portions of the device.
