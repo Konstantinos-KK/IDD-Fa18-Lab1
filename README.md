@@ -3,8 +3,10 @@
 **A lab report by Konstantinos Karras Kallidromitis**
 
 ## Part A. Set Up a Breadboard
-
-![Initial Circuit](https://github.com/Konstantinos-KK/IDD-Fa18-Lab1/blob/master/initial_circuit.jpg)
+<p align="center"> <b> Board Setup </b> <p>
+<p align="center">
+  <img width="600" src="https://github.com/Konstantinos-KK/IDD-Fa18-Lab1/blob/master/initial_circuit.jpg">
+</p>
 
 ## Part B. Manually Blink a LED
 
