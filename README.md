@@ -71,7 +71,12 @@ The LED remains turned on at the full range of the potentiometer. Measuring the 
 
 ### 2. Using your schematic, figure out where a good point would be to hijack your device and implant an LED.
 
-**Describe what you did here.** The mouse is a gaming mouse and has multiple LEDs for RGB lighting. Since the LEDs are regulated already by resistors, I connected in parallel to one of the LEDs the external one. Since it is in parallel, the current is divided and both LEDs light up. ......................
+**Describe what you did here.** The mouse is a gaming mouse and has multiple LEDs for RGB lighting. Since the LEDs are regulated already by resistors, I connected the external circuit in parallel to one of the LEDs, by hooking two cables to the breadboard. Since it is in parallel, the current is divided and the green LED lights up. The voltage is oscillating using an internal oscilaltor and thus the external LED changes intensity. When pressing the button the red light is connected in parallel and also lights up.
+
+<p align="center"> <b> Frankenlight Design </b> <p>
+<p align="center">
+  <img width="600" src="https://github.com/Konstantinos-KK/IDD-Fa19-Lab1/blob/master/frankenlight_design.jpg">
+</p>
 
 ### 3. Build your light!
 
